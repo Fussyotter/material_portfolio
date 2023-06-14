@@ -2,6 +2,9 @@
 
 import Test from "./testing/page"
 import HeaderSection from "./header/page"
+import FullMap from "./map/page"
+import LotTest from "./lot_test/page"
+
 
 
 
@@ -9,7 +12,9 @@ import HeaderSection from "./header/page"
 export default function Home() {
   return (
     <div >
-      <Test/>
+      {/* <Test/> */}
+      {/* <FullMap/> */}
+      <LotTest/>
     
     </div>
   )
